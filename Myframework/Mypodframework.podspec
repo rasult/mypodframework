@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Myframework/Myframework/*.{swift}"
 
-  s.dependency "RealmSwift", "~> 3.1.0"
+  s.dependency "RealmSwift", "~> 3.3.1"
 
 end
