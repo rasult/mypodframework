@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "Mypodframework"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of Mypodframework."
+  s.version      = "0.0.2"
+  s.summary      = "Mypodframework summary"
 
-  s.description  = "Mypodframework"
+  s.description  = "Mypodframework description"
 
   s.homepage     = "https://github.com/rasult/mypodframework"
 
@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
 
   s.author             = { "Rasul Sultanbekov" => "rasul.sultanbekov@zensoft.io" }
 
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "10.0"
+  s.swift_version = '4.0'
 
   s.source       = { :git => "https://github.com/rasult/mypodframework.git", :tag => s.version.to_s }
 
