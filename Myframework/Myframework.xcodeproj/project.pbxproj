@@ -12,6 +12,7 @@
 		D00A29CD206E055B00F36D98 /* MyframeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A29CC206E055B00F36D98 /* MyframeworkTests.swift */; };
 		D00A29CF206E055B00F36D98 /* Myframework.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A29C1206E055B00F36D98 /* Myframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D00A29D9206E066900F36D98 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A29D8206E066900F36D98 /* RealmManager.swift */; };
+		D00A2A07206E2E1C00F36D98 /* Mypodframework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D00A2A06206E2E1C00F36D98 /* Mypodframework.podspec */; };
 		E0C6BAC4149366C1B4200F93 /* Pods_Myframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E1F6C57DA9ACDC752FCB11 /* Pods_Myframework.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		D00A29CC206E055B00F36D98 /* MyframeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyframeworkTests.swift; sourceTree = "<group>"; };
 		D00A29CE206E055B00F36D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D00A29D8206E066900F36D98 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		D00A2A06206E2E1C00F36D98 /* Mypodframework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mypodframework.podspec; sourceTree = "<group>"; };
 		FA8CED86FD481450B1138E5E /* Pods-MyframeworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyframeworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyframeworkTests/Pods-MyframeworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 		D00A29B4206E055B00F36D98 = {
 			isa = PBXGroup;
 			children = (
+				D00A2A06206E2E1C00F36D98 /* Mypodframework.podspec */,
 				D00A29C0206E055B00F36D98 /* Myframework */,
 				D00A29CB206E055B00F36D98 /* MyframeworkTests */,
 				D00A29BF206E055B00F36D98 /* Products */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00A2A07206E2E1C00F36D98 /* Mypodframework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

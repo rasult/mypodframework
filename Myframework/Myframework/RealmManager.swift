@@ -11,5 +11,7 @@ import RealmSwift
 
 public class RealmManager {
     
-    let realm = try! Realm()
+    public init() {}
+    
+    public let realm = try! Realm()
 }
